@@ -1,0 +1,39 @@
+1. Product
+   id
+   name
+   handle
+   categoryId
+   brandId
+   reviewID
+   variants: []
+ 
+2. product_variant
+   id
+   name
+   price
+   product_variant_option: []
+ 
+3. product_variant_option
+   id
+   name
+   value
+ 
+4. Category
+   id
+   name
+ 
+5. brand
+   id
+   name
+ 
+6. Review
+   id
+   rating
+   comment
+ 
+create seach api that search based on
+ 
+1. search by handle name, category and brand name,
+2. search by rating min and max,
+3. filter by min Price and Max Price (product variant price),
+4. filter product by product_variant_option value including and, or query
